@@ -5,7 +5,7 @@ const PORT = 3000
 
 const cors = require('cors');
 
-// Permitir todas as origens (cuidado em produção)
+// Permitir todas as origens
 app.use(cors());
 
 const UserRoutes = require('./api/User.js')
